@@ -1,0 +1,12 @@
+.zoxFaqTitleDiv {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.zoxFaqTitle {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.125;
+  font-family: "Jost", sans-serif;
+}

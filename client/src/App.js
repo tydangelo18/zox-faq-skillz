@@ -1,9 +1,10 @@
 import "./App.css";
+import ZoxFaqTitle from "./components/faqtitle/ZoxFaqTitle";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <ZoxFaqTitle />
     </div>
   );
 }
