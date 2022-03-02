@@ -8,6 +8,7 @@ import ZoxPassTitle from "./components/sections/zoxpass/title/ZoxPassTitle";
 import ProductTitle from "./components/sections/product/title/ProductTitle";
 import SubscriptionsTitle from "./components/sections/subscriptions/title/SubscriptionsTitle";
 import ReturnsTitle from "./components/sections/returns/title/ReturnsTitle";
+import RewardsTitle from "./components/sections/rewards/title/RewardsTitle";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ProductTitle />
       <SubscriptionsTitle />
       <ReturnsTitle />
+      <RewardsTitle />
     </div>
   );
 }

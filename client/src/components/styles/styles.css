@@ -6,7 +6,8 @@
 .zoxPassTitleDiv,
 .productTitleDiv,
 .subscriptionsTitleDiv,
-.returnsTitleDiv {
+.returnsTitleDiv,
+.rewardsTitleDiv {
   margin-top: 40px;
   margin-bottom: 10px;
 }
@@ -19,7 +20,8 @@
 .zoxPassTitle,
 .productTitle,
 .subscriptionsTitle,
-.returnsTitle {
+.returnsTitle,
+.rewardsTitle {
   color: black;
   font-size: 40px;
   font-weight: bold;
