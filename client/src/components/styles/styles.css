@@ -3,7 +3,8 @@
 .shippingTitleDiv,
 .accountTitleDiv,
 .loyaltyTitleDiv,
-.zoxPassTitleDiv {
+.zoxPassTitleDiv,
+.productTitleDiv {
   margin-top: 40px;
   margin-bottom: 10px;
 }
@@ -13,7 +14,8 @@
 .shippingTitle,
 .accountTitle,
 .loyaltyTitle,
-.zoxPassTitle {
+.zoxPassTitle,
+.productTitle {
   color: black;
   font-size: 40px;
   font-weight: bold;
