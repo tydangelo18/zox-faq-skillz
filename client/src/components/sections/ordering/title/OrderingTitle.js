@@ -3,8 +3,8 @@ import "../../../styles/styles.css";
 
 const OrderingTitle = () => {
   return (
-    <div title="orderingTitle" className="orderingTitleDiv">
-      <h2 className="orderingTitle">Ordering</h2>
+    <div title="orderingTitle" className="titleDiv">
+      <h2 className="title">Ordering</h2>
     </div>
   );
 };

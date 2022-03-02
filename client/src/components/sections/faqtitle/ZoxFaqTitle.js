@@ -3,8 +3,8 @@ import "../../styles/styles.css";
 
 const ZoxFaqTitle = () => {
   return (
-    <div title="zoxFaqTitle" className="zoxFaqTitleDiv">
-      <h2 className="zoxFaqTitle">ZOX FAQs</h2>
+    <div title="zoxFaqTitle" className="titleDiv">
+      <h2 className="title">ZOX FAQs</h2>
     </div>
   );
 };

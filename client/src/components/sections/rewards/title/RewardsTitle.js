@@ -3,8 +3,8 @@ import "../../../styles/styles.css";
 
 const RewardsTitle = () => {
   return (
-    <div title="rewardsTitle" className="rewardsTitleDiv">
-      <h2 className="rewardsTitle">Rewards</h2>
+    <div title="rewardsTitle" className="titleDiv">
+      <h2 className="title">Rewards</h2>
     </div>
   );
 };

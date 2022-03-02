@@ -3,8 +3,8 @@ import "../../../styles/styles.css";
 
 const ZoxPassTitle = () => {
   return (
-    <div title="zoxPassTitle" className="zoxPassTitleDiv">
-      <h2 className="zoxPassTitle">ZOXPASS</h2>
+    <div title="zoxPassTitle" className="titleDiv">
+      <h2 className="title">ZOXPASS</h2>
     </div>
   );
 };

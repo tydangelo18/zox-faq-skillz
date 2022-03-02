@@ -3,8 +3,8 @@ import "../../../styles/styles.css";
 
 const ProductTitle = () => {
   return (
-    <div title="productTitle" className="productTitleDiv">
-      <h2 className="productTitle">Product Information</h2>
+    <div title="productTitle" className="titleDiv">
+      <h2 className="title">Product Information</h2>
     </div>
   );
 };

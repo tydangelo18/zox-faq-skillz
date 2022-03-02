@@ -3,8 +3,8 @@ import "../../../styles/styles.css";
 
 const SubscriptionsTitle = () => {
   return (
-    <div title="subscriptionsTitle" className="subscriptionsTitleDiv">
-      <h2 className="subscriptionsTitle">Monthly Subscriptions</h2>
+    <div title="subscriptionsTitle" className="titleDiv">
+      <h2 className="title">Monthly Subscriptions</h2>
     </div>
   );
 };
