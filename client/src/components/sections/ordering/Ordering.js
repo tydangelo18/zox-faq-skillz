@@ -1,7 +1,7 @@
 import React from "react";
 import OrderingTitle from "./title/OrderingTitle";
 import OrderingQuestions from "./faqs/OrderingQuestions";
-import { orderingData } from "./utils/faqs";
+import { orderingData } from "./utils/orderingfaqs";
 
 const Ordering = () => {
   return (

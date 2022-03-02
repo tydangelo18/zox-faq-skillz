@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../../styles/styles.css";
 
-const OrderingQuestions = ({ question, answer }) => {
+const ShippingQuestions = ({ question, answer }) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
@@ -23,4 +23,4 @@ const OrderingQuestions = ({ question, answer }) => {
   );
 };
 
-export default OrderingQuestions;
+export default ShippingQuestions;

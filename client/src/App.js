@@ -2,7 +2,7 @@ import "./App.css";
 import ZoxFaqTitle from "./components/sections/faqtitle/ZoxFaqTitle";
 // import OrderingTitle from "./components/sections/ordering/title/OrderingTitle";
 import Ordering from "./components/sections/ordering/Ordering";
-import ShippingTitle from "./components/sections/shipping/title/ShippingTitle";
+import Shipping from "./components/sections/shipping/Shipping";
 import AccountTitle from "./components/sections/account/title/AccountTitle";
 import LoyaltyTitle from "./components/sections/loyalty/title/LoyaltyTitle";
 import ZoxPassTitle from "./components/sections/zoxpass/title/ZoxPassTitle";
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <ZoxFaqTitle />
       <Ordering />
-      <ShippingTitle />
+      <Shipping />
       <AccountTitle />
       <LoyaltyTitle />
       <ZoxPassTitle />
