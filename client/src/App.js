@@ -6,6 +6,7 @@ import AccountTitle from "./components/sections/account/title/AccountTitle";
 import LoyaltyTitle from "./components/sections/loyalty/title/LoyaltyTitle";
 import ZoxPassTitle from "./components/sections/zoxpass/title/ZoxPassTitle";
 import ProductTitle from "./components/sections/product/title/ProductTitle";
+import SubscriptionsTitle from "./components/sections/subscriptions/title/SubscriptionsTitle";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <LoyaltyTitle />
       <ZoxPassTitle />
       <ProductTitle />
+      <SubscriptionsTitle />
     </div>
   );
 }
