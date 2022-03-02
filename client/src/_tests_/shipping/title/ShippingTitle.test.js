@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 
-import ShippingTitle from "../title/ShippingTitle";
+import ShippingTitle from "../../../components/sections/shipping/title/ShippingTitle";
 
 // Component Test
 it("Renders Shipping Title Component Correctly", () => {

@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 
-import OrderingTitle from "../title/OrderingTitle";
+import OrderingTitle from "../../../components/sections/ordering/title/OrderingTitle";
 
 // Component Test
 it("Renders Ordering Title Component Correctly", () => {

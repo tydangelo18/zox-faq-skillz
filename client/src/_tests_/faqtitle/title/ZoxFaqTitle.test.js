@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 
-import ZoxFaqTitle from "../ZoxFaqTitle";
+import ZoxFaqTitle from "../../../components/sections/faqtitle/ZoxFaqTitle";
 
 // Component Test
 it("Renders Zox FAQ Title Component Correctly", () => {
