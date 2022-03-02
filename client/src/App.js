@@ -7,7 +7,7 @@ import Account from "./components/sections/account/Account";
 import Loyalty from "./components/sections/loyalty/Loyalty";
 import ZoxPass from "./components/sections/zoxpass/ZoxPass";
 import Product from "./components/sections/product/Product";
-import SubscriptionsTitle from "./components/sections/subscriptions/title/SubscriptionsTitle";
+import Subscriptions from "./components/sections/subscriptions/Subscriptions";
 import ReturnsTitle from "./components/sections/returns/title/ReturnsTitle";
 import RewardsTitle from "./components/sections/rewards/title/RewardsTitle";
 
@@ -21,7 +21,7 @@ function App() {
       <Loyalty />
       <ZoxPass />
       <Product />
-      <SubscriptionsTitle />
+      <Subscriptions />
       <ReturnsTitle />
       <RewardsTitle />
     </div>
