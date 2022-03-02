@@ -5,7 +5,7 @@ import Ordering from "./components/sections/ordering/Ordering";
 import Shipping from "./components/sections/shipping/Shipping";
 import Account from "./components/sections/account/Account";
 import Loyalty from "./components/sections/loyalty/Loyalty";
-import ZoxPassTitle from "./components/sections/zoxpass/title/ZoxPassTitle";
+import ZoxPass from "./components/sections/zoxpass/ZoxPass";
 import ProductTitle from "./components/sections/product/title/ProductTitle";
 import SubscriptionsTitle from "./components/sections/subscriptions/title/SubscriptionsTitle";
 import ReturnsTitle from "./components/sections/returns/title/ReturnsTitle";
@@ -19,7 +19,7 @@ function App() {
       <Shipping />
       <Account />
       <Loyalty />
-      <ZoxPassTitle />
+      <ZoxPass />
       <ProductTitle />
       <SubscriptionsTitle />
       <ReturnsTitle />
