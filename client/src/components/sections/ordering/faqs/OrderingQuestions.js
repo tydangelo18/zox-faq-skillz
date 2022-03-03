@@ -17,7 +17,9 @@ const OrderingQuestions = ({ question, answer }) => {
         </div>
       </div>
       {isActive && (
-        <div className={isActive ? "answershow" : "answer"}>{answer}</div>
+        <div className={isActive ? "answershow" : "answer"}>
+          <p>{answer}</p>
+        </div>
       )}
     </div>
   );
