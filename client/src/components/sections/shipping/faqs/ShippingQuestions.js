@@ -16,9 +16,9 @@ const ShippingQuestions = ({ question, answer }) => {
           <div className="question">{question}</div>
         </div>
       </div>
-      {isActive && (
-        <div className={isActive ? "answershow" : "answer"}>{answer}</div>
-      )}
+      <div className="answer" aria-expanded={!isActive}>
+        <p>{answer}</p>
+      </div>
     </div>
   );
 };

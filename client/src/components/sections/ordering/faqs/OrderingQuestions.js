@@ -7,20 +7,14 @@ const OrderingQuestions = ({ question, answer }) => {
   return (
     <div className="personalizedDiv">
       <div className="item">
-        <div
-          className="questionDiv"
-          aria-expanded={isActive}
-          onClick={() => setIsActive(!isActive)}
-        >
+        <div className="questionDiv" onClick={() => setIsActive(!isActive)}>
           <div className="activeIcon">{isActive ? "-" : "+"}</div>
           <div className="question">{question}</div>
         </div>
       </div>
-      {isActive && (
-        <div className={isActive ? "answershow" : "answer"}>
-          <p>{answer}</p>
-        </div>
-      )}
+      <div className="answer" aria-expanded={!isActive}>
+        <p>{answer}</p>
+      </div>
     </div>
   );
 };
