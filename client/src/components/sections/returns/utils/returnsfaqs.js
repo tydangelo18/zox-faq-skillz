@@ -5,10 +5,14 @@ export const returnsData = [
       <p>
         We're so sorry to hear that you're needing to start the return process
         with us. We've done our very best to make it as easy as possible. All
-        you need to do is click <span className="bolded">here</span>, fill in
-        your information and the reason that you're creating the return. From
-        there, if your return is accepted, it should only take a few business
-        days at most to hear back from us with instructions on how to return it.
+        you need to do is click{" "}
+        <a className="bolded" href="https://returns.zox.la/" target="null">
+          here
+        </a>
+        , fill in your information and the reason that you're creating the
+        return. From there, if your return is accepted, it should only take a
+        few business days at most to hear back from us with instructions on how
+        to return it.
       </p>
     ),
   },
@@ -17,7 +21,13 @@ export const returnsData = [
     answer: (
       <p>
         If you'd like to learn more about our return policy, please click{" "}
-        <span className="bolded">here.</span>
+        <a
+          className="bolded"
+          href="https://zox.la/pages/return-policy"
+          target="null"
+        >
+          here.
+        </a>
       </p>
     ),
   },

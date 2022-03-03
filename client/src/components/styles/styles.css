@@ -35,7 +35,6 @@
 /* +/- Display Icon */
 .activeIcon {
   margin-right: 10px;
-  transition: all 0.4s ease;
 }
 
 /* FAQ Answer shown */
@@ -43,7 +42,7 @@
   overflow: hidden;
   max-height: 100vh;
   padding: 10px 20px 10px 40px;
-  transition: all 0.5s linear;
+  transition: all 0.8s linear;
 }
 
 /* FAQ Answer */

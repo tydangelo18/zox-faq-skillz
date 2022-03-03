@@ -6,13 +6,27 @@ export const orderingData = [
         I'm so sorry but at this point in time we can not offer personal ZOX. We
         totally understand there are certain meanings or designs that you or
         loved ones are drawn to. Please be sure to check out our{" "}
-        <span className="bolded">Shop</span> page and you may just be able to
-        find something similar to what you're looking for.
+        <a
+          className="bolded"
+          href="https://zox.la/pages/collections"
+          target="null"
+        >
+          Shop
+        </a>{" "}
+        page and you may just be able to find something similar to what you're
+        looking for.
         <br />
         <br />
         If you have an idea for a ZOX design, please join{" "}
-        <span className="bolded">ZOX Idea Factory</span> and post it in there.
-        We have a ton of amazing artists who are always looking for new ideas.
+        <a
+          className="bolded"
+          href="https://www.facebook.com/groups/zoxideafactory/"
+          target="null"
+        >
+          ZOX Idea Factory
+        </a>{" "}
+        and post it in there. We have a ton of amazing artists who are always
+        looking for new ideas.
       </p>
     ),
   },
@@ -71,7 +85,10 @@ export const orderingData = [
         <br />
         <br />
         If you request to cancel an order and it's already been shipped, you can
-        create a return <span className="bolded">here.</span>
+        create a return{" "}
+        <a className="bolded" href="https://returns.zox.la/" target="null">
+          here.
+        </a>
       </p>
     ),
   },

@@ -9,7 +9,13 @@ export const rewardsData = [
         Moonstones are super easy to redeem, all you need to do is follow this
         link, find the collection you are redeeming and follow the instructions
         on the form:{" "}
-        <span className="bolded">https://zox.la/pages/moonstone</span>
+        <a
+          className="bolded"
+          href="https://zox.la/pages/moonstone"
+          target="null"
+        >
+          https://zox.la/pages/moonstone
+        </a>
         <br />
         <br />
         There are only 200 of each Moonstone, if the one you're trying to redeem
@@ -29,7 +35,13 @@ export const rewardsData = [
         Mega Moonstones are super easy to redeem, all you need to do is follow
         this link, find the season you are redeeming and follow the instructions
         on the form:{" "}
-        <span className="bolded">https://zox.la/pages/moonstone</span>
+        <a
+          className="bolded"
+          href="https://zox.la/pages/moonstone"
+          target="null"
+        >
+          https://zox.la/pages/moonstone
+        </a>
       </p>
     ),
   },
@@ -61,7 +73,9 @@ export const rewardsData = [
         <br />
         <br />
         Please submit the following form:{" "}
-        <span className="bolded">https://zox.la/pages/rewards</span>
+        <a className="bolded" href="https://zox.la/pages/rewards" target="null">
+          https://zox.la/pages/rewards
+        </a>
         <br />
         <br />
         Once the form is submitted you will receive an email with further
@@ -80,7 +94,13 @@ export const rewardsData = [
         link, fill in the serial numbers for the monsters you are redeeming{" "}
         <b>(AD is left dot & General is the right dot)</b> and follow the
         instructions on the form:{" "}
-        <span className="bolded">https://zox.la/pages/monster-month-2021</span>
+        <a
+          className="bolded"
+          href="https://zox.la/pages/monster-month-2021?fbclid=IwAR1xVQVWQNbJKWPm_lMT-bGpP7GbOnFMWJ-bKsUd-UEyQ3zc6X8vwBFrtZ0"
+          target="null"
+        >
+          https://zox.la/pages/monster-month-2021
+        </a>
         <br />
         <br />
         There are 500 of Chaz Humbug, available in small, medium and large.

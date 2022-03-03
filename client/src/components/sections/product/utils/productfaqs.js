@@ -53,7 +53,14 @@ export const productData = [
         We do send out emails for each release and they are set to send out
         right when the release goes live for that day. To access the Secret
         Stash, you will need to hold an active{" "}
-        <span className="bolded">monthly subscription</span>.
+        <a
+          className="bolded"
+          href="https://zox.la/collections/available-subscriptions"
+          target="null"
+        >
+          monthly subscription
+        </a>
+        .
       </p>
     ),
   },
@@ -66,8 +73,15 @@ export const productData = [
         edition, so once it is fully sold out, it is gone for good.
         <br />
         <br />
-        You can check out our collectors guide <span className="bolded"></span>
-        here to learn more about rarity.
+        You can check out our collectors guide{" "}
+        <a
+          className="bolded"
+          href="https://zox.la/pages/collectorsguide"
+          target="null"
+        >
+          here
+        </a>{" "}
+        to learn more about rarity.
       </p>
     ),
   },
@@ -76,7 +90,9 @@ export const productData = [
     answer: (
       <p>
         We have some great tips for cleaning and caring for your ZOX:{" "}
-        <span className="bolded">https://zox.la/pages/care</span>
+        <a className="bolded" href="https://zox.la/pages/care" target="null">
+          https://zox.la/pages/care
+        </a>
         <br />
         <br />
         <i>

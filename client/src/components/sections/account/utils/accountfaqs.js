@@ -11,7 +11,13 @@ export const accountData = [
         <br />
         <br />
         If you need to resubscribe to emails, you can do so at this{" "}
-        <span className="bolded">here.</span>
+        <a
+          className="bolded"
+          href="https://zox.la/pages/resubscribe"
+          target="null"
+        >
+          here.
+        </a>
       </p>
     ),
   },
@@ -21,16 +27,24 @@ export const accountData = [
       <p>
         If you have lost or forgotten your password, don't worry, it's very easy
         to fix. All you will need to do is go{" "}
-        <span className="bolded">here</span> and click the 'Forgot Password'
-        link. That should bring you to a page to enter your email and a message
-        will be sent over to set a new password.
+        <a className="bolded" href="https://zox.la/account/login" target="null">
+          here
+        </a>{" "}
+        and click the 'Forgot Password' link. That should bring you to a page to
+        enter your email and a message will be sent over to set a new password.
         <br />
         <br />
         If you have tried the above step and had an error saying you do not have
         an account. That would mean that you did not create an account prior to
         ordering or after you ordered. That is very easy to fix as well, to
         create an account with any previous order history you will need to click{" "}
-        <span className="bolded">here.</span>
+        <a
+          className="bolded"
+          href="https://zox.la/account/register"
+          target="null"
+        >
+          here.
+        </a>
         <br />
         <br />
         <i>

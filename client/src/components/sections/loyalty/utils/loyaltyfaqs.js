@@ -3,18 +3,23 @@ export const loyaltyData = [
     question: "How do I become a VIP/VIP+?",
     answer: (
       <p>
-        <span className="bolded">VIP Status</span> is automatically granted once
-        you create an account with us. With this status you receive 10 points
-        per $1 spent that can be used to make reward vouchers ranging from
-        $5-100. Points are earned by making purchases, reviewing your purchases,
-        liking us on social media, and more.
+        <a className="bolded" href="https://zox.la/pages/vip" target="null">
+          VIP Status
+        </a>{" "}
+        is automatically granted once you create an account with us. With this
+        status you receive 10 points per $1 spent that can be used to make
+        reward vouchers ranging from $5-100. Points are earned by making
+        purchases, reviewing your purchases, liking us on social media, and
+        more.
         <br />
         <br />
-        <span className="bolded">VIP+ Status</span> is automatically granted
-        once you reach 5,000 points in your account. With this status you
-        receive 15 points per $1 spent. Unfortunately if you account is inactive
-        for more than a year, you may loose your VIP+ status and go back to a
-        VIP status.
+        <a className="bolded" href="https://zox.la/pages/vip" target="null">
+          VIP+ Status
+        </a>{" "}
+        is automatically granted once you reach 5,000 points in your account.
+        With this status you receive 15 points per $1 spent. Unfortunately if
+        you account is inactive for more than a year, you may loose your VIP+
+        status and go back to a VIP status.
       </p>
     ),
   },
@@ -22,8 +27,12 @@ export const loyaltyData = [
     question: "What is VIP preferred pricing?",
     answer: (
       <p>
-        As a <span className="bolded">VIP or VIP+</span>, you'll receive $1 off
-        when you order 5 full priced straps or singles at a time.
+        As a{" "}
+        <a className="bolded" href="https://zox.la/pages/vip" target="null">
+          VIP or VIP+
+        </a>
+        , you'll receive $1 off when you order 5 full priced straps or singles
+        at a time.
         <br />
         <br />
         <i>This discount is not valid on Blog straps or singles.</i>
@@ -75,10 +84,12 @@ export const loyaltyData = [
       <p>
         Birthday Straps are exclusively reserved for customers who are VIP,
         VIP+, or Subscribers. You must register your birthday with us{" "}
-        <span className="bolded">here</span>. Enter your birthday and click
-        'Sign Up.' If you don’t register your birthday at least a month before
-        your birthday, you will have to wait until next year to get your Cake
-        Strap.
+        <a className="bolded" href="https://zox.la/apps/birthday" target="null">
+          here
+        </a>
+        . Enter your birthday and click 'Sign Up.' If you don’t register your
+        birthday at least a month before your birthday, you will have to wait
+        until next year to get your Cake Strap.
       </p>
     ),
   },
