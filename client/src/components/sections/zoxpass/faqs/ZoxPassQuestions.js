@@ -16,7 +16,7 @@ const ZoxPassQuestions = ({ question, answer }) => {
           <div className="question">{question}</div>
         </div>
       </div>
-      <div className="answer" aria-expanded={!isActive}>
+      <div className="answer" aria-hidden={!isActive}>
         <p>{answer}</p>
       </div>
     </div>

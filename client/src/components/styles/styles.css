@@ -42,12 +42,12 @@
   overflow: hidden;
   max-height: 100vh;
   padding: 10px 20px 10px 40px;
-  transition: all 0.8s linear;
+  transition: all 1s linear;
 }
 
-/* FAQ Answer */
-.answer[aria-expanded="true"] {
-  max-height: 0px;
+/* FAQ Answer Hidden */
+.answer[aria-hidden="true"] {
+  max-height: 0vh;
 }
 
 /* FAQ Links */
